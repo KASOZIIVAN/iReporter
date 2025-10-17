@@ -1,0 +1,46 @@
+/* Hero and button styles */
+.home {
+	position: relative;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	color: #111;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 80px 20px;
+}
+
+.hero-content {
+	text-align: center;
+	max-width: 800px;
+}
+
+.buttons {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.btn {
+	border: none;
+	border-radius: 6px;
+	padding: 12px 20px;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #fff;
+	font-weight: 600;
+}
+
+.red-flag {
+	background-color: #e63946;
+}
+
+.intervention {
+	background-color: #2a9d8f;
+}
+
+.btn:active {
+	transform: translateY(1px);
+}
